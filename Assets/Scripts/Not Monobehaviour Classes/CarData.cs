@@ -47,26 +47,26 @@ public class CarData
         get { return _appealRating; }
     }
 
-    private int _overallRating;
-    public int OverallRating
+    private float _overallRating;
+    public float OverallRating
     {
         get { return _overallRating; }
     }
 
-    public void SetData(string name, CSVParser.CarClasses primaryClass, CSVParser.CarClasses secondaryClass, int[] parameters, float ovr)
+    public void SetData(CSVParser.CarProperties carProp)
     {
-        _carName = name;
+        _carName = carProp.name;
 
-        _primaryClass = primaryClass;
-        _secondaryClass = secondaryClass;
+        _primaryClass = carProp.primaryClass;
+        _secondaryClass = carProp.secondaryClass;
 
-        _paceRating = parameters[0];
-        _abilityRating = parameters[1];
-        _resilienceRating = parameters[2];
-        _reliabilityRating = parameters[3];
-        _styleRating = parameters[4];
-        _appealRating = parameters[5];
-        _overallRating = (int)Mathf.Round(ovr * 100f);
+        _paceRating = carProp.paceRating;
+        _abilityRating = carProp.abilityRating;
+        _resilienceRating = carProp.resilienceRating;
+        _reliabilityRating = carProp.reliabilityRating;
+        _styleRating = carProp.styleRating;
+        _appealRating = carProp.appealRating;
+        _overallRating = carProp.overallRating;
     }
 
     public void DisplayCarData()
@@ -85,19 +85,19 @@ public class CarData
 
     public CarData() { }
 
-    public CarData(string name, CSVParser.CarClasses primaryClass, CSVParser.CarClasses secondaryClass, int[] parameters, float ovr)
+    public CarData(CSVParser.CarProperties carProp)
     {
-        _carName = name;
+        _carName = carProp.name;
 
-        _primaryClass = primaryClass;
-        _secondaryClass = secondaryClass;
+        _primaryClass = carProp.primaryClass;
+        _secondaryClass = carProp.secondaryClass;
 
-        _paceRating = parameters[0];
-        _abilityRating = parameters[1];
-        _resilienceRating = parameters[2];
-        _reliabilityRating = parameters[3];
-        _styleRating = parameters[4];
-        _appealRating = parameters[5];
-        _overallRating = (int)Mathf.Round(ovr * 100f);
+        _paceRating = carProp.paceRating;
+        _abilityRating = carProp.abilityRating;
+        _resilienceRating = carProp.resilienceRating;
+        _reliabilityRating = carProp.reliabilityRating;
+        _styleRating = carProp.styleRating;
+        _appealRating = carProp.appealRating;
+        _overallRating = carProp.overallRating;
     }
 }

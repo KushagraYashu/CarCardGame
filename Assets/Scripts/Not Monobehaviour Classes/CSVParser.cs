@@ -24,6 +24,42 @@ public static class CSVParser
         LUX     //Luxury Cars (most of these can be categorised as sedans so this will include extremely expensive sedans, rest can go to SDN)
     }
 
+    public class CarProperties
+    {
+        public string name;
+
+        public CarClasses primaryClass;
+        public CarClasses secondaryClass;
+
+        public int paceRating;
+        public int abilityRating;
+        public int resilienceRating;
+        public int reliabilityRating;
+        public int styleRating;
+        public int appealRating;
+
+        public float overallRating;
+
+        public string iconName;
+
+        public CarProperties()
+        {
+            name = "Default";
+
+            primaryClass = CarClasses.NON;
+            secondaryClass = CarClasses.NON;
+
+            paceRating = 0;
+            abilityRating = 0;
+            resilienceRating = 0;
+            reliabilityRating = 0;
+            styleRating = 0;
+            appealRating = 0;
+            overallRating = 0.0f;
+
+            iconName = "default_icon";
+        }
+    }
 
     public static void ParseCSV(string filePath)
     {
@@ -33,19 +69,18 @@ public static class CSVParser
         for (int i = 2; i < rows.Length - 1; i++) {
             // lets make sense of the row now
             string[] elements = rows[i].Split(',');
-            string carClass = elements[0];
-            string carName = elements[1];
-            string paceRating = elements[2];
-            string abilityRating = elements[3];
-            string resilienceRating = elements[4];
-            string reliabilityRating = elements[5];
-            string styleRating = elements[6];
-            string appealRating = elements[7];
-            string overallRating = elements[8];
+            
+            CarProperties carProperties = new();
 
-            CarData carData = new();
-            CarClasses primaryClass = CarClasses.NON;
-            CarClasses secondaryClass = CarClasses.NON;
+            string carClass = elements[0];
+            carProperties.name = elements[1];
+            carProperties.paceRating = int.Parse(elements[2]);
+            carProperties.abilityRating = int.Parse(elements[3]);
+            carProperties.resilienceRating = int.Parse(elements[4]);
+            carProperties.reliabilityRating = int.Parse(elements[5]);
+            carProperties.styleRating = int.Parse(elements[6]);
+            carProperties.appealRating = int.Parse(elements[7]);
+            carProperties.overallRating = float.Parse(elements[8]);
 
             string[] allClasses = carClass.Split('-');
             for(int j = 0; j < allClasses.Length; j++) {
@@ -53,30 +88,16 @@ public static class CSVParser
                 {
                     if(j == 0)
                     {
-                        primaryClass = result;
+                        carProperties.primaryClass = result;
                     }
                     else
                     {
-                        secondaryClass = result;
+                        carProperties.secondaryClass = result;
                     }
                 }
             }
 
-            carData.SetData(
-                carName,
-                primaryClass, secondaryClass,
-                new int[] {
-                    int.Parse(paceRating),
-                    int.Parse(abilityRating),
-                    int.Parse(resilienceRating),
-                    int.Parse(reliabilityRating),
-                    int.Parse(styleRating),
-                    int.Parse(appealRating)
-                },
-                float.Parse(overallRating)
-            );
-
-            carData.DisplayCarData();
+            GameManager.Instance.CreateCards(carProperties);
         }
     }
 
