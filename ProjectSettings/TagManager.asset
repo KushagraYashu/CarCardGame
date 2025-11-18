@@ -50,5 +50,8 @@ TagManager:
   - name: CarCard
     uniqueID: 349436839
     locked: 0
+  - name: CarCard2
+    uniqueID: 2420918347
+    locked: 0
   m_RenderingLayers:
   - Default

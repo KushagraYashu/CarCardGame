@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eed91c7792755614db68d5007e13daa6
+guid: 10ec085f18d4e5b41b2c388776323edf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4395255134894277953
-    second: SuzukiBaleno_0
+      213: 1448686490786825145
+    second: ToyotaTrophyTruckBlur_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SuzukiBaleno_0
+      name: ToyotaTrophyTruckBlur
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 145c59412451ffc30800000000000000
-      internalID: 4395255134894277953
+      spriteID: 9b3814a10b4ca1410800000000000000
+      internalID: 1448686490786825145
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b0a2fbd9dde971f4e8ad1fdbdc72fd1c
+    spriteID: ca678baa03f2d7a4f8b67539bea8e913
     internalID: 0
     vertices: []
     indices: 
@@ -159,11 +159,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      SuzukiBaleno_0: 4395255134894277953
+      ToyotaTrophyTruckBlur: 1448686490786825145
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

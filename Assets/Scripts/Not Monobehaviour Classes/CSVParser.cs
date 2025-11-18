@@ -12,6 +12,7 @@ public static class CSVParser
         SUV,    //SUV
         OFF,    //Offroad
         SDN,    //Sedan
+        STG,    //Station Wagon
         SPR,    //Sports
         CON,    //Convertible
         COU,    //Coupe
@@ -41,6 +42,9 @@ public static class CSVParser
         public float overallRating;
 
         public string iconName;
+        public string iconBlurName;
+
+        public int order;
 
         public CarProperties()
         {
@@ -58,6 +62,9 @@ public static class CSVParser
             overallRating = 0.0f;
 
             iconName = "default_icon";
+            iconBlurName = "default_icon_blur";
+
+            order = 10;
         }
     }
 
@@ -81,6 +88,9 @@ public static class CSVParser
             carProperties.styleRating = int.Parse(elements[6]);
             carProperties.appealRating = int.Parse(elements[7]);
             carProperties.overallRating = float.Parse(elements[8]);
+            carProperties.iconName = elements[9];
+            carProperties.iconBlurName = elements[10];
+            carProperties.order += i;
 
             string[] allClasses = carClass.Split('-');
             for(int j = 0; j < allClasses.Length; j++) {
