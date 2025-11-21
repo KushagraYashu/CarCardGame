@@ -76,9 +76,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 315892069
+  m_SortingLayerID: 349436839
   m_SortingLayer: 1
-  m_SortingOrder: 10
+  m_SortingOrder: 2
   m_Sprite: {fileID: -6212857673387198488, guid: cf3f3ae9786af394f8887dbf39c3c599, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -171,11 +171,11 @@ SpriteMask:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1448686490786825145, guid: 10ec085f18d4e5b41b2c388776323edf, type: 3}
   m_MaskAlphaCutoff: 1
-  m_FrontSortingLayerID: 964526963
+  m_FrontSortingLayerID: 349436839
   m_BackSortingLayerID: 0
-  m_FrontSortingLayer: 2
+  m_FrontSortingLayer: 1
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 10
+  m_FrontSortingOrder: 3
   m_BackSortingOrder: 10
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
@@ -397,11 +397,11 @@ SpriteMask:
   m_SortingOrder: 0
   m_Sprite: {fileID: -6212857673387198488, guid: cf3f3ae9786af394f8887dbf39c3c599, type: 3}
   m_MaskAlphaCutoff: 1
-  m_FrontSortingLayerID: 315892069
+  m_FrontSortingLayerID: 349436839
   m_BackSortingLayerID: 0
   m_FrontSortingLayer: 1
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 10
+  m_FrontSortingOrder: 2
   m_BackSortingOrder: 0
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
@@ -759,11 +759,11 @@ SpriteMask:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1448686490786825145, guid: 10ec085f18d4e5b41b2c388776323edf, type: 3}
   m_MaskAlphaCutoff: 1
-  m_FrontSortingLayerID: 964526963
+  m_FrontSortingLayerID: 349436839
   m_BackSortingLayerID: 0
-  m_FrontSortingLayer: 2
+  m_FrontSortingLayer: 1
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 10
+  m_FrontSortingOrder: 3
   m_BackSortingOrder: 10
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
@@ -1570,11 +1570,11 @@ SpriteMask:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1448686490786825145, guid: 10ec085f18d4e5b41b2c388776323edf, type: 3}
   m_MaskAlphaCutoff: 1
-  m_FrontSortingLayerID: 964526963
+  m_FrontSortingLayerID: 349436839
   m_BackSortingLayerID: 0
-  m_FrontSortingLayer: 2
+  m_FrontSortingLayer: 1
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 10
+  m_FrontSortingOrder: 3
   m_BackSortingOrder: 10
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
@@ -2101,11 +2101,11 @@ SpriteMask:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1448686490786825145, guid: 10ec085f18d4e5b41b2c388776323edf, type: 3}
   m_MaskAlphaCutoff: 1
-  m_FrontSortingLayerID: 964526963
+  m_FrontSortingLayerID: 349436839
   m_BackSortingLayerID: 0
-  m_FrontSortingLayer: 2
+  m_FrontSortingLayer: 1
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 10
+  m_FrontSortingOrder: 3
   m_BackSortingOrder: 10
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
@@ -2191,11 +2191,11 @@ SpriteMask:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1448686490786825145, guid: 10ec085f18d4e5b41b2c388776323edf, type: 3}
   m_MaskAlphaCutoff: 1
-  m_FrontSortingLayerID: 964526963
+  m_FrontSortingLayerID: 349436839
   m_BackSortingLayerID: 0
-  m_FrontSortingLayer: 2
+  m_FrontSortingLayer: 1
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 10
+  m_FrontSortingOrder: 3
   m_BackSortingOrder: 10
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
@@ -2281,11 +2281,11 @@ SpriteMask:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1448686490786825145, guid: 10ec085f18d4e5b41b2c388776323edf, type: 3}
   m_MaskAlphaCutoff: 1
-  m_FrontSortingLayerID: 964526963
+  m_FrontSortingLayerID: 349436839
   m_BackSortingLayerID: 0
-  m_FrontSortingLayer: 2
+  m_FrontSortingLayer: 1
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 10
+  m_FrontSortingOrder: 3
   m_BackSortingOrder: 10
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
@@ -2371,11 +2371,11 @@ SpriteMask:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1448686490786825145, guid: 10ec085f18d4e5b41b2c388776323edf, type: 3}
   m_MaskAlphaCutoff: 1
-  m_FrontSortingLayerID: 964526963
+  m_FrontSortingLayerID: 349436839
   m_BackSortingLayerID: 0
-  m_FrontSortingLayer: 2
+  m_FrontSortingLayer: 1
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 10
+  m_FrontSortingOrder: 3
   m_BackSortingOrder: 10
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
@@ -2456,9 +2456,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 964526963
-  m_SortingLayer: 2
-  m_SortingOrder: 10
+  m_SortingLayerID: 349436839
+  m_SortingLayer: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1448686490786825145, guid: 10ec085f18d4e5b41b2c388776323edf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2518,6 +2518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4262f15d0c08084fa433fe73e009198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CarCardUIHelper
+  carCardCanvas: {fileID: 2209336215071221796}
   carIconSR: {fileID: 1965461945924481140}
   carIconMask: {fileID: 4383848615231065050}
   carIconBlurSR: {fileID: 4555630484272653540}
@@ -2775,7 +2776,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 349436839
-  m_SortingOrder: 99
+  m_SortingOrder: 4
   m_TargetDisplay: 0
 --- !u!114 &9105642024006241308
 MonoBehaviour:
@@ -3034,11 +3035,11 @@ SpriteMask:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1448686490786825145, guid: 10ec085f18d4e5b41b2c388776323edf, type: 3}
   m_MaskAlphaCutoff: 1
-  m_FrontSortingLayerID: 964526963
+  m_FrontSortingLayerID: 349436839
   m_BackSortingLayerID: 0
-  m_FrontSortingLayer: 2
+  m_FrontSortingLayer: 1
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 10
+  m_FrontSortingOrder: 3
   m_BackSortingOrder: 10
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
@@ -3260,11 +3261,11 @@ SpriteMask:
   m_SortingOrder: 0
   m_Sprite: {fileID: 1448686490786825145, guid: 10ec085f18d4e5b41b2c388776323edf, type: 3}
   m_MaskAlphaCutoff: 1
-  m_FrontSortingLayerID: 964526963
+  m_FrontSortingLayerID: 349436839
   m_BackSortingLayerID: 0
-  m_FrontSortingLayer: 2
+  m_FrontSortingLayer: 1
   m_BackSortingLayer: 0
-  m_FrontSortingOrder: 10
+  m_FrontSortingOrder: 3
   m_BackSortingOrder: 10
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0

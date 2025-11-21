@@ -41,17 +41,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: CarIcon
-    uniqueID: 315892069
-    locked: 0
-  - name: BlurredIcon
-    uniqueID: 964526963
-    locked: 0
   - name: CarCard
     uniqueID: 349436839
-    locked: 0
-  - name: CarCard2
-    uniqueID: 2420918347
     locked: 0
   m_RenderingLayers:
   - Default

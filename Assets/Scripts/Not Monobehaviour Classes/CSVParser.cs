@@ -42,7 +42,6 @@ public static class CSVParser
         public float overallRating;
 
         public string iconName;
-        public string iconBlurName;
 
         public int order;
 
@@ -61,10 +60,9 @@ public static class CSVParser
             appealRating = 0;
             overallRating = 0.0f;
 
-            iconName = "default_icon";
-            iconBlurName = "default_icon_blur";
+            iconName = "defaultIcon";
 
-            order = 10;
+            order = 2;
         }
     }
 
@@ -73,6 +71,7 @@ public static class CSVParser
         string csvText = System.IO.File.ReadAllText(filePath);
         string[] rows = csvText.Split('\n');
 
+        int o = 0;
         for (int i = 2; i < rows.Length - 1; i++) {
             // lets make sense of the row now
             string[] elements = rows[i].Split(',');
@@ -88,9 +87,10 @@ public static class CSVParser
             carProperties.styleRating = int.Parse(elements[6]);
             carProperties.appealRating = int.Parse(elements[7]);
             carProperties.overallRating = float.Parse(elements[8]);
-            carProperties.iconName = elements[9];
-            carProperties.iconBlurName = elements[10];
-            carProperties.order += i;
+            if(elements[9] != "")
+                carProperties.iconName = elements[9];
+            carProperties.order += (3 * o) + 2;
+            o++;
 
             string[] allClasses = carClass.Split('-');
             for(int j = 0; j < allClasses.Length; j++) {

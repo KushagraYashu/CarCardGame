@@ -1,4 +1,4 @@
-﻿Class,Car Name,Pace,Ability,Resilience,Reliability,Style,Appeal,Overall,Icon Name,Blurred Icon Name
+﻿Class,Car Name,Pace,Ability,Resilience,Reliability,Style,Appeal,Overall,Icon Name,IconBlurName
 Weights,-,1,3,2,2,1,0.75,-,-,
 OFF,Toyota Trophy Truck,70,99,95,95,80,55,0.890512821,ToyotaTrophyTruck,ToyotaTrophyTruckBlur
 SUV-OFF,Land Rover Range Rover,85,80,82,70,87,83,0.798205128,LandRoverRangeRover,LandRoverRangeRoverBlur

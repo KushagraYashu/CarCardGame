@@ -15,6 +15,8 @@ public class CarCardUIHelper : MonoBehaviour
         public TextMeshProUGUI value;
     }
 
+    public Canvas carCardCanvas;
+
     public SpriteRenderer carIconSR;
     public SpriteMask carIconMask;
 
@@ -40,22 +42,24 @@ public class CarCardUIHelper : MonoBehaviour
 
         string path = iconPath + prop.iconName;
         carIconSR.sprite = Resources.Load<Sprite>(path);
-        carIconSR.sortingOrder = prop.order;
+        carIconSR.sortingOrder = prop.order + 1;
         carIconMask.sprite = carIconSR.sprite;
-        carIconMask.frontSortingOrder = prop.order;
+        carIconMask.frontSortingOrder = prop.order + 1;
 
-        path = iconPath + prop.iconBlurName;
+        path += "Blur";
         if(Resources.Load<Sprite>(path) == null)
         {
             Debug.LogError($"Car icon blur sprite not found at path: {path}");
         }
         carIconBlurSR.sprite = Resources.Load<Sprite>(path);
-        carIconBlurSR.sortingOrder = prop.order;
+        carIconBlurSR.sortingOrder = prop.order + 2;
         foreach (SpriteMask sm in carIconBlurMasks)
         {
             sm.sprite = carIconBlurSR.sprite;
-            sm.frontSortingOrder = prop.order;
+            sm.frontSortingOrder = prop.order + 2;
         }
+
+        carCardCanvas.sortingOrder = prop.order + 3;
 
         if (prop.secondaryClass != CSVParser.CarClasses.NON)
         {
